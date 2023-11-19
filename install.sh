@@ -530,9 +530,17 @@ password=$(get_password "wgeasy")
 sed -i -e "s;<wgeasy_password>;$password;g" "$env_network"
 #primary_dns=$(nmcli dev show | grep 'IP4.DNS' | awk '{ print $2 }')
 #read -rp "You can change the primary DNS wgeasy will use: " -e -i $(nmcli dev show | grep 'IP4.DNS' | awk '{ print $2 }') primary_dns
+sudo apt install curl -y
+
+read -p "Please, input your your domain name or Statis IP address (Your current public IP address is:$(curl ifconfig.me): " my_domain
+if [[ $traefik == "n" ]]; then
+    my_domain=${my_domain:-$(curl ifconfig.me)}
+    sudo sed -i -e "s;<my_domain>;$my_domain;g" "$env_network" "$env_management" "$env_media" "$env_starrs" "/usr/local/bin/fly-hi"
+fi
 read -rp "Please, input the port you forwarded from your router to your wg-easy VPN server: " -e -i 51820 portfwd_wgeasy
 sed -i -e "s;<forwarded_port_wgeasy>;$portfwd_wgeasy;g" "$env_network"
 sed -i '/#port_forwarding_wgeasy#/s/^#//' "$env_network"
+
 fi
 
 #VPN CLIENT
