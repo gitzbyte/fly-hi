@@ -901,13 +901,6 @@ exit 0
 
 
 
-#comment out lines
-#sed -i '/#yes_gluetun#/s/^/#/' "$compose_starrs"
-## remove comment instead of remove line
-#sed -i '/#gluetun#/s/^/#/' "$filename"
-#remove
-#sed -i '/#traefik#/d'
-
 
 
 
