@@ -21,7 +21,7 @@ services:
 #      - PUID=${USER_ID}
 #      - PGID=${GROUP_ID}
 #      #- BASE_PATH=https://speedtest.${HOSTNAME}
-#      #- TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+#      #- TELEGRAM_BOT_TOKEN=${BOT_TOKEN}
 #      - AUTH=false
 #      - APP_KEY="base64:k019tZ8Nsf/a02QHQWtr5TNA0EIaL6R2bvMwJ/qkxc8="  # fixes 500 server error - "https://github.com/alexjustesen/speedtest-tracker/issues/849"
 ##      - DB_CONNECTION=sqlite
