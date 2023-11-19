@@ -9,18 +9,16 @@ This is a fork and a combination of these two projects and credit goes to these 
 
 https://github.com/AdrienPoupa/docker-compose-nas
 
-With this combination, you can create a fully functional server that is going to secure, manage, download,
-categorize, subtitle and serve all your media.
+
 
 * Description
 :PROPERTIES:
 :ID:       280135a0-2cff-4e93-8679-7d1a6d56b7b2
 :END:
 
+With this combination, you can create a fully functional server that is going to secure, manage, download,
+categorize, subtitle and serve all your media.
 
-*This is a beta version and over time, and I mean a long time, Im looking to improve on security and additional functionality when it comes to permissions and network stuff like traefik. Im a beginner at this kind of stuff so any contributions and suggestions are very welcome. Documentation also needs a lot of work which I simply dont have time to do. If you notice any typos in any of the files, please let me know!*
-
-*If you are a complete noob and want to run this locally only, it might be better to skip Traefik reverse-proxy setup, however if you are familiar with it and have a public domain already, please use it and test it! Also, if you don't have a Static Public IP address some stuff like VPN Servers usually work best if you have a public domain which can be regularly updated with Dynamic DNS client.*
 
 This script gives you options to install the following software:
 
@@ -89,6 +87,16 @@ The bash versions of VPN servers are really for little more advanced users so pl
 - qBittorrent - Does the actual download...(https://www.qbittorrent.org/)"
 - Tubesync    - Manage your favorite Youtube Channels (https://github.com/meeb/tubesync)"
 
+
+* Disclaimer
+:PROPERTIES:
+:ID:       280135a0-2cff-4e93-8679-7d1a6d56b7b2
+:END:
+
+
+*This is a beta version and over time, and I mean a long time, Im looking to improve on security and additional functionality when it comes to permissions and network stuff like traefik. Im a beginner at this kind of stuff so any contributions and suggestions are very welcome. Documentation also needs a lot of work which I simply dont have time to do. If you notice any typos in any of the files, please let me know!*
+
+*If you are a complete noob and want to run this locally only, it might be better to skip Traefik reverse-proxy setup, however if you are familiar with it and have a public domain already, please use it and test it! Also, if you don't have a Static Public IP address some stuff like VPN Servers usually work best if you have a public domain which can be regularly updated with Dynamic DNS client.*
 
 
 
