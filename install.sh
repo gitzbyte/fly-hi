@@ -596,7 +596,7 @@ send_message_in_blue "==========================================================
 send_message_in_blue "=============================================================================="
 
 #VPN SERVER
-send_warning_message "For Advanced Users Only!"
+send_warning_message " =============  FOR ADVANCED USERS ONLY !!! ============="
 echo "Would you like to install an alternative to wg-easy (bash version) personal VPN server to help you access your media from the outside of your home? [y/N]: "
 send_warning_message "Note: This will require your sudo password! "
 send_warning_message "Note: If you already chose docker version of wireguard 'WG-Easy' which is recommended you can skip this step unless you want to run OpenVPN also!"
