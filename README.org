@@ -204,6 +204,7 @@ Just let them know Fly-Hi sent you there 😎
 
 - [ ] Documentation Improvements.
 - [ ] Security Improvements.
+- [ ] Integrate a way for easily adding your own custom docker-compose services.
 - [ ] Support for Caddy (in testing).
 - [ ] Support for Graylog (In testing).
 - [ ] Support for Immich (In testing).
