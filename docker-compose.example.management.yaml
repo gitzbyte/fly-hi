@@ -84,7 +84,7 @@ services:
 #    environment:
 #      - TZ=${TIMEZONE}
 #      - WATCHTOWER_LIFECYCLE_HOOKS=True
-#      # For notifications to work you need to add your BOT_TOKEN and CHAT_ID variables to .env files and then uncomment the following 2 lines.
+#      # For telegram notifications to work you need to add your BOT_TOKEN and CHAT_ID variables to .env files and then uncomment the following line.
 #      #- WATCHTOWER_NOTIFICATION_URL=telegram://${BOT_TOKEN}@telegram/?channels=${CHAT_ID}
 #      - WATCHTOWER_NOTIFICATIONS=shoutrrr
 #      - WATCHTOWER_NOTIFICATION_URL=ntfy://ntfy.${HOSTNAME}/Management?title=WatchtowerUpdates
