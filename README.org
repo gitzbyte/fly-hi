@@ -77,7 +77,7 @@ The bash versions of VPN servers are really for little more advanced users so pl
 - Mealie          - A self-hosted recipe manager and meal planner (https://docs.mealie.io/)"
 
 
-*Starrs and Download services*
+*Starrs and Download:*
 - Radarr      - Manage your Movies (https://radarr.video/)"
 - Sonarr      - Manage your TV Shows (https://sonarr.tv/)"
 - Readarr     - Manage your Books (https://readarr.com/)"
