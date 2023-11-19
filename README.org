@@ -150,7 +150,7 @@ $ ./install.sh
 #+end_src
 
 And follow the instructions.
-*There are a few things that need to be done after containers are up and running but sometimes containers fail to start properly if your system already has some conflicting ports. In order to finalize the installation you will need to run the reinstall.sh script after you fix the port conflicts or some other errors preventing containers to start up.*
+*There are a few things that need to be done after containers are up and running but sometimes containers fail to start properly if your system already has some conflicting ports in use. In order to finalize the installation you will need to run the reinstall.sh script after you fix the port conflicts or some other errors preventing containers to start up.*
 
 
 * Usage
