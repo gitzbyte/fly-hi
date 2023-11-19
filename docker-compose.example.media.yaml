@@ -438,8 +438,8 @@ services:
 #      # - "/example/family:/photoprism/originals/family" # *Additional* media folders can be mounted like this
 #      #- "${DATA_ROOT}/PhotosByDate:/photoprism/import"                  # *Optional* base folder from which files can be imported to originals
 #      #This is default but i put the storage folder on my ${DATA_ROOT} because a library of 30k+ photos can easily fill up the boot disk with cache
-#      #- "${INSTALL_LOCATION}/media/photoprism/storage:/photoprism/storage"                  # *Writable* storage folder for cache, database, and sidecar files
-#      - "${DATA_ROOT}/Photoprism/storage:/photoprism/storage"
+#      - "${INSTALL_LOCATION}/media/photoprism/storage:/photoprism/storage"                  # *Writable* storage folder for cache, database, and sidecar files
+#      #- "${DATA_ROOT}/Photoprism/storage:/photoprism/storage"
 #    networks:
 #      - fly-hi
 #    labels: #traefik#
