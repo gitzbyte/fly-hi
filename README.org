@@ -202,10 +202,9 @@ Just let them know Fly-Hi sent you there 😎
 :ID:       eba4712e-fa8a-42c8-bc32-b593141c99a4
 :END:
 
-
-- [ ] Support for Caddy.
-- [ ] security Improvements.
 - [ ] Documentation Improvements.
+- [ ] Security Improvements.
+- [ ] Support for Caddy (in testing).
 - [ ] Support for Graylog (In testing).
 - [ ] Support for Immich (In testing).
 
