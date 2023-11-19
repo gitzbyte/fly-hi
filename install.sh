@@ -531,8 +531,9 @@ sed -i -e "s;<wgeasy_password>;$password;g" "$env_network"
 #primary_dns=$(nmcli dev show | grep 'IP4.DNS' | awk '{ print $2 }')
 #read -rp "You can change the primary DNS wgeasy will use: " -e -i $(nmcli dev show | grep 'IP4.DNS' | awk '{ print $2 }') primary_dns
 sudo apt install curl -y
-
-read -p "Please, input your your domain name or Statis IP address (Your current public IP address is:$(curl ifconfig.me): " my_domain
+echo
+#read -rp "Please, input your your domain name or Statis IP address [You can also leave your current public IP]: " -e -i $(curl ifconfig.me) my_domain
+read -p "Please, input your your domain name or Statis IP address (Your current public IP address is:[$(curl ifconfig.me)]): " my_domain
 if [[ $traefik == "n" ]]; then
     my_domain=${my_domain:-$(curl ifconfig.me)}
     sudo sed -i -e "s;<my_domain>;$my_domain;g" "$env_network" "$env_management" "$env_media" "$env_starrs" "/usr/local/bin/fly-hi"
