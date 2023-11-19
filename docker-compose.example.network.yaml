@@ -14,7 +14,7 @@ services:
 #      - '8044:80'
 #      - '8442:443'
 #    volumes:
-#      - ${INSTALL_LOCATION}/network/speedtest:/config
+#      - ${INSTALL_LOCATION}/network/speedtest/config:/config
 #      - ${INSTALL_LOCATION}/network/speedtest/web:/etc/ssl/web
 #    environment:
 #      - TZ=${TIMEZONE}
