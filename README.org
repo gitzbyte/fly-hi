@@ -36,6 +36,7 @@ This script gives you options to install the following software:
 - PhpMyAdmin     - WEBui for managing MySQL/MariaDB databases, tables, columns, relations, indexes, users, permissions, etc (https://hub.docker.com/r/phpmyadmin/phpmyadmin/)"
 - PgAdmin        - WEBui for managing Postgres databases, tables, columns, relations, indexes, users, permissions, etc (https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)"
 - CockpitProject - System Management Tool (https://cockpit-project.org)"
+- Dozzle         - All docker logs in one place on a nice WEB-UI (https://dozzle.dev/)
 
 
 *Network:*
