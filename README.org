@@ -9,6 +9,9 @@ This is a fork and a combination of these two projects and credit goes to these 
 
 https://github.com/AdrienPoupa/docker-compose-nas
 
+With this combination, you can create a fully functional server that is going to secure, manage, download,
+categorize, subtitle and serve all your media.
+
 * Description
 :PROPERTIES:
 :ID:       280135a0-2cff-4e93-8679-7d1a6d56b7b2
@@ -86,8 +89,7 @@ The bash versions of VPN servers are really for little more advanced users so pl
 - qBittorrent - Does the actual download...(https://www.qbittorrent.org/)"
 - Tubesync    - Manage your favorite Youtube Channels (https://github.com/meeb/tubesync)"
 
-With this combination, you can create a fully functional server that is going to secure, manage, download,
-categorize, subtitle and serve all your media.
+
 
 
 
