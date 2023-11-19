@@ -457,7 +457,7 @@ echo
 send_message_in_blue "=============================================================================="
 echo
 add_service "flaresolverr" "Proxy server to bypass Cloudflare protection in Prowlarr https://github.com/FlareSolverr/FlareSolverr"
-add_service "ddclient" "Keep your Domain updated at all times Unnecessary if you are NOT exposing any of your service to public!) https://github.com/ddclient/ddclient"
+add_service "ddclient" "Keep your Domain updated at all times (Unnecessary if you are NOT exposing any of your service to public!) https://github.com/ddclient/ddclient"
 add_service "speedtest" "Monitor your internet speed on a scheduled basis https://github.com/alexjustesen/speedtest-tracker"
 
 
