@@ -1,13 +1,28 @@
-# Fly-Hi: Self-Hosted Power House!
+#+title: Fly-Hi: Self-Hosted Power House!
+
+
+This is a fork and a combination of these two projects and credit goes to these two guys for most of this repo.
+
+*I repurposed this for my own needs and I just wanted to share it!*
+
+[[https://yams.media][https://yams.media]]
+
+https://github.com/AdrienPoupa/docker-compose-nas
+
+
 
 * Description
 :PROPERTIES:
 :ID:       280135a0-2cff-4e93-8679-7d1a6d56b7b2
 :END:
 
-Fly-Hi is a versatile server setup that combines the efforts of two projects, giving credit to the original authors:
-- [yams.media](https://yams.media)
-- [AdrienPoupa/docker-compose-nas](https://github.com/AdrienPoupa/docker-compose-nas)
+With this combination, you can create a fully functional server that is going to secure, manage, download,
+categorize, subtitle and serve all your media.
+
+
+This script gives you options to install the following software:
+
+
 
 *Management:*
 - Portainer      - Keep your docker containers in check! (https://www.portainer.io/)"
@@ -21,6 +36,7 @@ Fly-Hi is a versatile server setup that combines the efforts of two projects, gi
 - PhpMyAdmin     - WEBui for managing MySQL/MariaDB databases, tables, columns, relations, indexes, users, permissions, etc (https://hub.docker.com/r/phpmyadmin/phpmyadmin/)"
 - PgAdmin        - WEBui for managing Postgres databases, tables, columns, relations, indexes, users, permissions, etc (https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html)"
 - CockpitProject - System Management Tool (https://cockpit-project.org)"
+- Dozzle         - All docker logs in one place on a nice WEB-UI (https://dozzle.dev/)
 
 
 *Network:*
@@ -62,7 +78,7 @@ The bash versions of VPN servers are really for little more advanced users so pl
 - Mealie          - A self-hosted recipe manager and meal planner (https://docs.mealie.io/)"
 
 
-*Starrs and Download services*
+*Starrs and Download:*
 - Radarr      - Manage your Movies (https://radarr.video/)"
 - Sonarr      - Manage your TV Shows (https://sonarr.tv/)"
 - Readarr     - Manage your Books (https://readarr.com/)"
@@ -71,7 +87,6 @@ The bash versions of VPN servers are really for little more advanced users so pl
 - Prowlarr    - Indexer aggregator for Sonarr and Radarr (https://github.com/Prowlarr/Prowlarr)"
 - qBittorrent - Does the actual download...(https://www.qbittorrent.org/)"
 - Tubesync    - Manage your favorite Youtube Channels (https://github.com/meeb/tubesync)"
-
 
 
 * Disclaimer
