@@ -349,13 +349,13 @@ services:
 #        - /var/run/docker.sock:/var/run/docker.sock:ro # disable when using socket proxy
 #    labels: #traefik#
 #      - "traefik.enable=true" #traefik#
-#      - "traefik.http.routers.pgadmin.rule=Host(`pgadmin.${HOSTNAME}`)" #traefik#
-#      - "traefik.http.services.pgadmin.loadbalancer.server.port=8080" #traefik#
-#      - "traefik.http.routers.pgadmin.tls.certresolver=myresolver" #traefik#
-#      - "traefik.http.routers.pgadmin.tls=true" #traefik#
-##      - "traefik.http.routers.pgadmin.tls.domains[0].main=${HOSTNAME}"               #dnschallenge# #traefik#
-##      - "traefik.http.routers.pgadmin.tls.domains[0].sans=*.${HOSTNAME}"             #dnschallenge# #traefik#
-##      - "traefik.http.routers.pgadmin.entrypoints=websecure"                        #httpchallenge# #traefik#
+#      - "traefik.http.routers.dozzle.rule=Host(`dozzle.${HOSTNAME}`)" #traefik#
+#      - "traefik.http.services.dozzle.loadbalancer.server.port=8080" #traefik#
+#      - "traefik.http.routers.dozzle.tls.certresolver=myresolver" #traefik#
+#      - "traefik.http.routers.dozzle.tls=true" #traefik#
+##      - "traefik.http.routers.dozzle.tls.domains[0].main=${HOSTNAME}"               #dnschallenge# #traefik#
+##      - "traefik.http.routers.dozzle.tls.domains[0].sans=*.${HOSTNAME}"             #dnschallenge# #traefik#
+##      - "traefik.http.routers.dozzle.entrypoints=websecure"                        #httpchallenge# #traefik#
 #dozzleend
 
 
