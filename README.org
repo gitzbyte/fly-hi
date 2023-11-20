@@ -204,8 +204,7 @@ Just let them know Fly-Hi sent you there 😎
 - [ ] Support for Caddy (in testing).
 - [ ] Support for Graylog (In testing).
 - [ ] Support for Immich (In testing).
-
-
+- [ ] Support for ytdl-sub (In testing).
 
 ** And finally:
 :PROPERTIES:
