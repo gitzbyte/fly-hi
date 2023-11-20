@@ -1,13 +1,10 @@
 #+title: Fly-Hi: Self-Hosted Power House!
 
 
-This is a fork and a combination of these two projects and credit goes to these two guys for most of this repo.
+**Credits:**
+This project is a fork and combination of [Yams Media](https://yams.media) and [AdrienPoupa/docker-compose-nas](https://github.com/AdrienPoupa/docker-compose-nas). Special thanks to these contributors for the foundation of this repository.
 
-*I repurposed this for my own needs and I just wanted to share it!*
-
-[[https://yams.media][https://yams.media]]
-
-https://github.com/AdrienPoupa/docker-compose-nas
+I've repurposed it to suit my needs and wanted to share it with you!
 
 
 
