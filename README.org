@@ -79,16 +79,16 @@ This script gives you options to install the following software:
 - [Mealie](https://docs.mealie.io/) - A self-hosted recipe manager and meal planner
 
 
-
 *Starrs and Download:*
-- [Radarr](https://radarr.video/) - Manage your Movies
-- [Sonarr](https://sonarr.tv/) - Manage your TV Shows
-- [Readarr](https://readarr.com/) - Manage your Books
-- [Lidarr](https://lidarr.audio/) - Manage your Music
-- [Bazarr](https://www.bazarr.media/) - Manage Subtitles for your Media Collection
-- [Prowlarr](https://github.com/Prowlarr/Prowlarr) - Indexer aggregator for Sonarr and Radarr
-- [qBittorrent](https://www.qbittorrent.org/) - Does the actual download…
-- [Tubesync](https://github.com/meeb/tubesync) - Manage your favorite Youtube Channels
+- Radarr - Manage your Movies [Radarr](https://radarr.video/)
+- Sonarr - Manage your TV Shows [Sonarr](https://sonarr.tv/)
+- Readarr - Manage your Books [Readarr](https://readarr.com/)
+- Lidarr - Manage your Music [Lidarr](https://lidarr.audio/)
+- Bazarr - Manage Subtitles for your Media Collection [Bazarr](https://www.bazarr.media/)
+- Prowlarr - Indexer aggregator for Sonarr and Radarr [Prowlarr](https://github.com/Prowlarr/Prowlarr)
+- qBittorrent - Does the actual download… [qBittorrent](https://www.qbittorrent.org/)
+- Tubesync - Manage your favorite Youtube Channels [Tubesync](https://github.com/meeb/tubesync)
+
 
 
 
