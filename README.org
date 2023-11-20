@@ -12,13 +12,6 @@ https://github.com/AdrienPoupa/docker-compose-nas
 
 
 * Description
-:PROPERTIES:
-:ID:       280135a0-2cff-4e93-8679-7d1a6d56b7b2
-:END:
-
-With this combination, you can create a fully functional server that is going to secure, manage, download,
-categorize, subtitle and serve all your media.
-
 
 Fly-Hi is a versatile server setup that secures, manages, downloads, categorizes, subtitles, and serves all your media. The script offers options to install the following software:
 
