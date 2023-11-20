@@ -15,7 +15,7 @@ https://github.com/AdrienPoupa/docker-compose-nas
 Fly-Hi is a versatile server setup that secures, manages, downloads, categorizes, subtitles, and serves all your media. The script offers options to install the following software:
 
 *Management:*
-- Portainer      - Keep your docker containers in check! (https://www.portainer.io/)"
+- **Portainer:** Keep your docker containers in check! [Portainer](https://www.portainer.io/)
 - Watchtower     - Keep your docker containers up to date! (https://github.com/containrrr/watchtower)"
 - Heimdall       - Keep your services organized on a nice Dashboard (https://github.com/linuxserver/Heimdall)"
 - Glances        - System Information (https://nicolargo.github.io/glances/)"
