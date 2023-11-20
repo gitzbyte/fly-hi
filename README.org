@@ -80,7 +80,7 @@ This script gives you options to install the following software:
 
 
 *Starrs and Download:*
-- Radarr - Manage your Movies [Radarr](https://radarr.video/)
+- Radarr - Manage your Movies [ Radarr ](https://radarr.video/)
 - Sonarr - Manage your TV Shows [Sonarr](https://sonarr.tv/)
 - Readarr - Manage your Books [Readarr](https://readarr.com/)
 - Lidarr - Manage your Music [Lidarr](https://lidarr.audio/)
